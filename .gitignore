@@ -1,0 +1,10 @@
+.*
+!.gitignore
+qiime_tmp/
+18/
+*.gz
+*.fna
+*.log
+*.e*
+*.o*
+
