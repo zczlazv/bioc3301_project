@@ -1,4 +1,4 @@
-# Advanced Practical in Molecular Biology Projest
+# Advanced Practical in Molecular Biology Project
 Metagenomic analysis of soil samples using QIIME on Cirrus HPC
 ## Scripts
 
