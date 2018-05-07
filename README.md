@@ -10,3 +10,5 @@ This script demultiplexes sequence data (in Fastq format) and performes quality 
 This script was used for picking operational taxonomical units (OTUs) using closed reference approach (against the database of known centroids).
 1. [core_diversity_analyses.py](./scripts/core_diversity.pbs)
 This workflow script includes several diversity analyses, such as alpha diversity and rerefaction plots, beta diversity and taxa tables.
+1. [compare_categories.py](./scripts/statistics_pH.pbs)
+This script allows to analyse the statistical significance of sample groupings using distance matrices. ANOSIM method was used. This method allows testing whether two or more groups of samples are significantly different based on a categorical variable from the mapping file (here pH of the soil). The same script was adopted to evaluate the effect of other categories in the mapping file.
