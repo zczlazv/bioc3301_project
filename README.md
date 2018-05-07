@@ -1,5 +1,5 @@
-# Repository for Cirrus HPC
-Metagenomic analysis of soil samples (using QIIME)
+# Advanced Practical in Molecular Biology Projest
+Metagenomic analysis of soil samples using QIIME on Cirrus HPC
 ## Scripts
 
 1. [validate_mapping_file.py](./scripts/validation.pbs)
