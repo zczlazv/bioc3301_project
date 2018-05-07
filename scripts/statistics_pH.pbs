@@ -1,0 +1,11 @@
+#!/bin/bash --login
+#PBS -l walltime=02:00:00
+#PBS -l select=1:ncpus=2
+#PBS -N statistics_pH
+#PBS -A d411-training
+cd $PBS_O_WORKDIR
+module load miniconda/python2
+export TMPDIR=~/qiime_tmp
+source activate qiime1
+compare_categories.py --method anosim -i ~/18/core_diversity/bdiv_even1000/unweighted_unifrac_dm.txt -m ~/18/corrected_map.tsv -c SamplePh -o ~/18/anosim_pH -n 999
+source deactivate
